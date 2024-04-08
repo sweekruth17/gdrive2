@@ -31,7 +31,7 @@ const getDir = (data, pathArr) => {
   console.log("getDirNodes", nodes);
   return nodes;
 };
-const updateChildrenForDir = (currDir, newChildren, oldData) => {
+const updateChildrenForFolder = (currDir, newChildren, oldData) => {
   return oldData.map((data) => {
     if (data.name === currDir) {
       // console.log("new data set", currDir);
@@ -40,7 +40,7 @@ const updateChildrenForDir = (currDir, newChildren, oldData) => {
     } else if (data.type === "folder") {
       return {
         ...data,
-        children: updateChildrenForDir(
+        children: updateChildrenForFolder(
           currDir,
           newChildren,
           data.children || []
@@ -88,7 +88,7 @@ export const fileSystemSlice = createSlice({
         const currDir = pathArr[pathArr.length - 1];
         const oldData = JSON.parse(JSON.stringify(state.data));
         console.log("oldData", oldData);
-        const newTemp = updateChildrenForDir(currDir, temp, oldData);
+        const newTemp = updateChildrenForFolder(currDir, temp, oldData);
         console.log("newTemp", newTemp);
         state.data = newTemp;
         state.currentData = newTemp;
@@ -104,7 +104,7 @@ export const fileSystemSlice = createSlice({
       console.log("temp", temp);
       const currDir = pathArr[pathArr.length - 1];
       const oldData = JSON.parse(JSON.stringify(state.data));
-      const newTemp = updateChildrenForDir(currDir, temp, oldData);
+      const newTemp = updateChildrenForFolder(currDir, temp, oldData);
       state.data = newTemp;
       state.currentData = newTemp;
     },
@@ -137,7 +137,7 @@ export const fileSystemSlice = createSlice({
         });
         const currDir = pathArr[pathArr.length - 1];
         const oldData = JSON.parse(JSON.stringify(state.data));
-        const newTemp = updateChildrenForDir(currDir, temp, oldData);
+        const newTemp = updateChildrenForFolder(currDir, temp, oldData);
         console.log("newTemp", newTemp);
         state.data = newTemp;
         state.currentData = newTemp;

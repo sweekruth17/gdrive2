@@ -75,7 +75,9 @@ const CustomModal = () => {
                   <a
                     role="tab"
                     className={
-                      activeTab === "Folder" ? "tab tab-active" : "tab "
+                      activeTab === "Folder"
+                        ? "tab [--tab-bg:#4ab7ff]  tab-active"
+                        : "tab "
                     }
                     onClick={() => {
                       const temp = activeTab === "File" ? "Folder" : "File";
@@ -112,7 +114,7 @@ const CustomModal = () => {
                       alert("Please enter a name");
                     }
                   }}
-                  className="w-60 bg-[#4a00ff] rounded-lg py-2 text-white"
+                  className="w-60 bg-[#4ab7ff] rounded-lg py-2 text-white"
                 >
                   Add
                 </button>
@@ -155,7 +157,7 @@ const CustomModal = () => {
                       alert("Please enter a name");
                     }
                   }}
-                  className="w-40 bg-[#4a00ff] rounded-lg py-2 text-white"
+                  className="w-40 bg-[#4ab7ff] rounded-lg py-2 text-white"
                 >
                   Rename
                 </button>

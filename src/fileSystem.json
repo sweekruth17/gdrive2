@@ -12,35 +12,35 @@
         "id": "e9c9d82b-7d44-44b5-87d4-a56478b92c32",
         "children": [
           {
-            "path": "root/literature/identification",
+            "path": "root/literature/mydetails",
             "type": "folder",
-            "name": "identification",
+            "name": "mydetails",
             "id": "12a1b34c-d5f7-4e23-a984-12c34b567e89",
             "children": [
               {
-                "path": "root/literature/identification/aadhar.pdf",
+                "path": "root/literature/mydetails/10marks.pdf",
                 "type": "file",
-                "name": "aadhar.pdf",
+                "name": "10marks.pdf",
                 "id": "56b879a2-1234-5678-90ab-cdef01234567"
               },
               {
-                "path": "root/literature/identification/tax_card.pdf",
+                "path": "root/literature/mydetails/12thmarks_card.pdf",
                 "type": "file",
-                "name": "tax_card.pdf",
+                "name": "12thmarks_card.pdf",
                 "id": "89ca01d3-4567-890a-bcde-fedcba098765"
               },
               {
-                "path": "root/literature/identification/driver_license.jpg",
+                "path": "root/literature/mydetails/dp.jpg",
                 "type": "file",
-                "name": "driver_license.jpg",
+                "name": "dp.jpg",
                 "id": "234f10e4-7890-aabb-ccdd-1234567890ab"
               }
             ]
           },
           {
-            "path": "root/literature/technical_paper.pdf",
+            "path": "root/literature/Btech_paper.pdf",
             "type": "file",
-            "name": "technical_paper.pdf",
+            "name": "Btech_paper.pdf",
             "id": "cbfed215-0123-4567-8abc-def0fedcba98"
           }
         ]
@@ -78,9 +78,9 @@
         ]
       },
       {
-        "path": "root/Empty",
+        "path": "root/New",
         "type": "folder",
-        "name": "Empty",
+        "name": "New",
         "id": "12345678-1234-5678-90ab-cdef01234567",
         "children": []
       }
