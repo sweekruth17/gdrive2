@@ -1,0 +1,89 @@
+[
+  {
+    "path": "root",
+    "type": "folder",
+    "name": "root",
+    "id": "b7d4e2b1-f123-4e4e-940b-12b7d4255e11",
+    "children": [
+      {
+        "path": "root/literature",
+        "type": "folder",
+        "name": "literature",
+        "id": "e9c9d82b-7d44-44b5-87d4-a56478b92c32",
+        "children": [
+          {
+            "path": "root/literature/identification",
+            "type": "folder",
+            "name": "identification",
+            "id": "12a1b34c-d5f7-4e23-a984-12c34b567e89",
+            "children": [
+              {
+                "path": "root/literature/identification/aadhar.pdf",
+                "type": "file",
+                "name": "aadhar.pdf",
+                "id": "56b879a2-1234-5678-90ab-cdef01234567"
+              },
+              {
+                "path": "root/literature/identification/tax_card.pdf",
+                "type": "file",
+                "name": "tax_card.pdf",
+                "id": "89ca01d3-4567-890a-bcde-fedcba098765"
+              },
+              {
+                "path": "root/literature/identification/driver_license.jpg",
+                "type": "file",
+                "name": "driver_license.jpg",
+                "id": "234f10e4-7890-aabb-ccdd-1234567890ab"
+              }
+            ]
+          },
+          {
+            "path": "root/literature/technical_paper.pdf",
+            "type": "file",
+            "name": "technical_paper.pdf",
+            "id": "cbfed215-0123-4567-8abc-def0fedcba98"
+          }
+        ]
+      },
+      {
+        "path": "root/entertainment",
+        "type": "folder",
+        "name": "entertainment",
+        "id": "785a936b-2345-6789-0abc-1def23456789",
+        "children": [
+          {
+            "path": "root/entertainment/spirited_away.mp4",
+            "type": "file",
+            "name": "spirited_away.mp4",
+            "id": "10fed426-3456-789a-bcde-fedcba012345"
+          },
+          {
+            "path": "root/entertainment/spirited_away.srt",
+            "type": "file",
+            "name": "spirited_away.srt",
+            "id": "456789a0-bced-defg-hijk-lmno01234567"
+          },
+          {
+            "path": "root/entertainment/blade_runner_2049.mp4",
+            "type": "file",
+            "name": "blade_runner_2049.mp4",
+            "id": "7890abc1-defg-hijk-lmno-pqrstu012345"
+          },
+          {
+            "path": "root/entertainment/blade_runner_2049.srt",
+            "type": "file",
+            "name": "blade_runner_2049.srt",
+            "id": "abcdef02-1234-5678-9abc-def0fedcba01"
+          }
+        ]
+      },
+      {
+        "path": "root/Empty",
+        "type": "folder",
+        "name": "Empty",
+        "id": "12345678-1234-5678-90ab-cdef01234567",
+        "children": []
+      }
+    ]
+  }
+]
